@@ -24,27 +24,27 @@ export const fetchHabits = createAsyncThunk("habits/fetchHabits", async () => {
   //simulate fetching data from an API
   await new Promise((resolve) => setTimeout(resolve, 1000));
   const mockHabits: Habit[] = [
-    {
-      id: "1",
-      name: "Read a book",
-      frequency: "daily",
-      completedDates: [],
-      createdAt: new Date().toISOString(),
-    },
-    {
-      id: "2",
-      name: "Go for a run",
-      frequency: "daily",
-      completedDates: [],
-      createdAt: new Date().toISOString(),
-    },
-    {
-      id: "3",
-      name: "Learn something new",
-      frequency: "daily",
-      completedDates: [],
-      createdAt: new Date().toISOString(),
-    },
+    // {
+    //   id: "1",
+    //   name: "Read a book",
+    //   frequency: "daily",
+    //   completedDates: [],
+    //   createdAt: new Date().toISOString(),
+    // },
+    // {
+    //   id: "2",
+    //   name: "Go for a run",
+    //   frequency: "daily",
+    //   completedDates: [],
+    //   createdAt: new Date().toISOString(),
+    // },
+    // {
+    //   id: "3",
+    //   name: "Learn something new",
+    //   frequency: "daily",
+    //   completedDates: [],
+    //   createdAt: new Date().toISOString(),
+    // },
   ];
   return mockHabits;
 });
